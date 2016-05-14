@@ -18,17 +18,17 @@ public:
     ~EEStudio();
 
 private:
-    __InitUi();
+    void __InitUi();
 
-    QGridLayout m_gl;
-    QLabel m_lComNum;
-    QLabel m_lBaudrate;
-    QLabel m_lSendText;
-    QLabel m_lRecvText;
-    QPushButton m_pbSend;
-    QLineEdit m_leSendText;
-    QComboBox m_cbCom;
-    QComboBox m_cbBaudrate;
+    QGridLayout *m_gl;
+    QLabel *m_lComNum;
+    QLabel *m_lBaudrate;
+    QLabel *m_lSentText;
+    QLabel *m_lRecvText;
+    QPushButton *m_pbSend;
+    QLineEdit *m_leSentText;
+    QComboBox *m_cbCom;
+    QComboBox *m_cbBaudrate;
 
 };
 
