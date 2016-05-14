@@ -3,6 +3,12 @@
 
 #include <QWidget>
 
+class QGridLayout;
+class QGridLayout;
+class QLabel;
+class QPushButton;
+class QLineEdit;
+
 class EEStudio : public QWidget
 {
     Q_OBJECT
@@ -12,6 +18,7 @@ public:
     ~EEStudio();
 
 private:
+    __InitUi();
 
 };
 
